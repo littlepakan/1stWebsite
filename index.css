@@ -1,0 +1,106 @@
+/* * = พื้นหลังสุดของเว็บ */
+
+@font-face {
+    font-family: "DFPOPCorn-W7";
+    src: url(fonts/DFPOPCorn-W7.ttf) format("truetype");
+  }
+
+.main {
+    background-color: rgb(131, 0, 0);
+    
+}
+
+.bigbg {
+    width: 100%;
+    height: 100%;
+}
+
+.topspace {
+    padding-top: 5px;
+    display: flex;
+    width: 33.33%;
+    font-family: "DFPOPCorn-W7", sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+}
+
+.space {
+    padding-top: 0px;
+    display: flex;
+    width: 33.33%;
+}
+
+.news {
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+    display: inline-block;
+}
+
+/* .box {
+    width: 50%;
+    height: 20%;
+    object-fit: contain;
+    display: inline-block;
+} */
+
+.menubox {
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+    display: inline-block;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menumes {
+    font-family: "DFPOPCorn-W7", sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.searchbar {
+    font-size: 20px;
+}
+
+.firstbutton {
+    background-color: rgb(255, 241, 255);
+    color: rgb(208, 69, 208);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.firstbutton:hover {
+    /* opacity: 0 - 1 */
+    opacity: 0.8;
+}
+
+.firstbutton:active {
+    opacity: 0.5;
+}
+
+.secondbutton {
+    background-color: rgb(255, 241, 255);
+    color: rgb(41, 242, 198);
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.what {
+    display: inline-block;
+}
